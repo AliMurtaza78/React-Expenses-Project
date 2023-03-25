@@ -7,11 +7,11 @@ const ExpenseForm = (props) => {
   const [enteredDate, setEnteredDate] = useState("");
 
   // Another Way of using useState hook
-//   const [userInput, setUserInput] = useState({
-//     enteredTitle: "",
-//     enteredAmount: "",
-//     enteredDate: "",
-//   });
+  // const [userInput, setUserInput] = useState({
+  //   enteredTitle: "",
+  //   enteredAmount: "",
+  //   enteredDate: "",
+  // });
   const titleChangeHandler = (event) => {
     setEnteredTitle(event.target.value);
     // setUserInput({
